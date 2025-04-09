@@ -1,18 +1,14 @@
-//
-//  deemoApp.swift
-//  deemo
-//
-//  Created by Zhibek Nasipbekova on 12.03.2025.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
 struct deemoApp: App {
+    @StateObject var authViewModel = AuthViewModel()  // Create a shared AuthViewModel
+    
+    // Optional: Use ModelContainer if you're using SwiftData for persistence
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Item.self, // Define all your data models here
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,8 +21,8 @@ struct deemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProfileView()
+                .environmentObject(authViewModel)
         }
-        .modelContainer(sharedModelContainer)
     }
 }

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9E5A3F1F2D9C2E9B000FEA87 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A3F1E2D9C2E9B000FEA87 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9E5297642D81B1FE005E0A5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		9E52974F2D81B1FC005E0A5A /* deemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E5297632D81B1FE005E0A5A /* deemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E52976D2D81B1FE005E0A5A /* deemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5A3F1E2D9C2E9B000FEA87 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		9E5297462D81B1FC005E0A5A = {
 			isa = PBXGroup;
 			children = (
+				9E5A3F1E2D9C2E9B000FEA87 /* Constants.swift */,
 				9E5297512D81B1FC005E0A5A /* deemo */,
 				9E5297662D81B1FE005E0A5A /* deemoTests */,
 				9E5297702D81B1FF005E0A5A /* deemoUITests */,
@@ -249,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5A3F1F2D9C2E9B000FEA87 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
