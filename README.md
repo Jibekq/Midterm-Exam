@@ -1,1 +1,1 @@
-# Midterm-Exam
+the project working partial, cause the frontend is crushing and decting the defect its crashing anither thing. Organizer can create the event by themself, volunter can see the event, the project is working on backend mostly cause the front is crashing after adding any single word. And its also effect to backend cause i think some error can called by backend.
